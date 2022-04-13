@@ -21,18 +21,27 @@ this means:
           * date(): gives you the full date. ==> {day}/{month}/{year}
   * Roll_a_dice:
       * Commands:
-             * roll_dice(): rolls a dice, gives you a integer value betweeen 1 and 6. 
+              roll_dice(): rolls a dice, gives you a integer value betweeen 1 and 6. 
   * Google:
       * Commands:
-             *search(topic):searchs something on google(you have to write the topic of your search to the parameters). 
+              search(topic):searchs something on google(you have to write the topic of your search to the parameters). 
   
   * Weather: ==> !! WARNING: it uses openweather api so if you dont have a account it wont work for you!
       * Commands:
-             * weather_temp(city,api_key): gives you the temperature of your city by centigrade. (you have to set your city and api_key to parameters)
-             * weather_description(city,api_key): gives you the description about your weather. (you have to set your city and api_key to parameters)
+              weather_temp(city,api_key): gives you the temperature of your city by centigrade. (you have to set your city and api_key to parameters)
+              weather_description(city,api_key): gives you the description about your weather. (you have to set your city and api_key to parameters)
   * Password_generator:
       * Commands:
-             *generate(passlength): gives you a random password with the maximum chars of your choice (you have to set passlength as your parameter)
+              generate(passlength): gives you a random password with the maximum chars of your choice (you have to set passlength as your parameter)
+  * Wikipedia:
+      * Commands: 
+              search(topic): searches you something in wikipedia. (you have to write topic as a parameter)
+  * Joke
+      * Commands:
+              joke(): makes a joke about proggraming
+  * Day_time()
+      * Commands:
+              time():gets you the current time
   
   
       
